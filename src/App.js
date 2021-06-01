@@ -1,9 +1,15 @@
+import Fragment from 'render-fragment';
+import BannerSlider from './UI/Banner/Banner';
+
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div><h1>Hello World</h1></div>
+      <Fragment>
+        <BannerSlider />
+      </Fragment>
     </div>
   );
 }
