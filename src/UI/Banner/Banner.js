@@ -5,6 +5,15 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/swiper.scss';
 
+
+import Banner1 from '../../uploads/images/banner/banner-01.jpg';
+import Banner2 from '../../uploads/images/banner/banner-02.jpg';
+import Banner3 from '../../uploads/images/banner/banner-03.jpg';
+import Banner4 from '../../uploads/images/banner/banner-04.jpg';
+
+
+
+
 class BannerSlider extends React.Component{
   render(){
     return(
@@ -14,10 +23,10 @@ class BannerSlider extends React.Component{
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)} 
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide><img src={Banner1} alt="" /> </SwiperSlide>
+        <SwiperSlide><img src={Banner2} alt="" /> </SwiperSlide>
+        <SwiperSlide><img src={Banner3} alt="" /> </SwiperSlide>
+        <SwiperSlide><img src={Banner4} alt="" /> </SwiperSlide>
       </Swiper>
     )
   }
