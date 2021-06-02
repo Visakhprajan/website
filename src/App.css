@@ -1,11 +1,23 @@
-.App {
-  text-align: center;
+
+
+@media (min-width: 1280px){
+  .MuiContainer-root.MuiContainer-maxWidthLg{
+    max-width: 1170px;
+  }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.MuiContainer-root.container{
+  padding: 0 15px;
 }
+.container .row{
+    margin: 0 -15px;
+    width: auto;
+}
+.container .MuiGrid-root .MuiGrid-item{
+  padding: 0 15px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
