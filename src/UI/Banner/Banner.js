@@ -24,22 +24,22 @@ class BannerSlider extends React.Component{
         onSwiper={(swiper) => console.log(swiper)} 
       >
         <SwiperSlide><img src={Banner1} alt="" />
-          <Container>
+          <Container className="container">
             <h2>What is Lorem Ipsum?<br /><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small></h2>
           </Container>
         </SwiperSlide>
         <SwiperSlide><img src={Banner2} alt="" /> 
-          <Container>
+          <Container className="container">
             <h2>What is Lorem Ipsum?<br /><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small></h2>
           </Container>
         </SwiperSlide>
         <SwiperSlide><img src={Banner3} alt="" /> 
-          <Container>
+          <Container className="container">
             <h2>What is Lorem Ipsum?<br /><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small></h2>
           </Container>
         </SwiperSlide>
         <SwiperSlide><img src={Banner4} alt="" /> 
-          <Container>
+          <Container className="container">
             <h2>What is Lorem Ipsum?<br /><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small></h2>
           </Container>
         </SwiperSlide>

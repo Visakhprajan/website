@@ -1,8 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
+
+import ImageBlock from './ImageBlock';
+import ContentBlock from './Content-block';
 
 import  './About.css';
 
@@ -24,10 +26,10 @@ export default function AutoGrid() {
     <Container className="container">
       <Grid container className="row">
         <Grid item md={6} xs={12} className={classes.item} >
-          <Paper className={classes.paper}>xs=6</Paper>
+          <ImageBlock />
         </Grid>
         <Grid item md={6} xs={12} pt={0}>
-          <Paper className={classes.paper}>xs=6</Paper>
+         <ContentBlock />
         </Grid>
       </Grid>
     </Container>

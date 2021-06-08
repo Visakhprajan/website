@@ -1,0 +1,14 @@
+.skill-thumb{
+  width: 55px;
+  height: 65px;
+  background-repeat: no-repeat;
+}
+.skill-thumb.html{
+  background-image: url('../../assets/icons/html5-brands.svg');
+}
+.skill-thumb.css{
+  background-image: url('../../assets/icons/css3-brands.svg');
+}
+.skill-thumb.js{
+  background-image: url('../../assets/icons/js-brands.svg');
+}

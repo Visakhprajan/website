@@ -1,0 +1,7 @@
+
+.card .logo-holder .service{
+  width: 116px;
+  height: 55px;
+  background-image: url('../../../assets/icons/node-js-brands.svg');
+  background-repeat: no-repeat;
+}
